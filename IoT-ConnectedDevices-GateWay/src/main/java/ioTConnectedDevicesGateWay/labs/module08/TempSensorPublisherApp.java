@@ -3,7 +3,7 @@ package ioTConnectedDevicesGateWay.labs.module08;
 public class TempSensorPublisherApp {
 	public static void main(String[] args) {
 		String path = "/Users/heychris/Downloads/IoT-Project-master/IoTGatewayJava/IoT-ConnectedDevices-GateWay/data/ubidots_cert.pem";
-		MqttClientConnector test = new MqttClientConnector("things.ubidots.com", "A1E-PFSRmQIfmOnbm37aHrrbqKvKjsHnwd",
+		MqttClientConnector test = new MqttClientConnector("things.ubidots.com", "{authtoken}",
 				path);
 		test.connect();
 		// publish from the sensor

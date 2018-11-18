@@ -1,6 +1,3 @@
-/**
- * 
- */
 package ioTConnectedDevicesGateWay.labs.module07;
 
 import java.util.Set;

@@ -7,6 +7,8 @@ import org.eclipse.californium.core.coap.MediaTypeRegistry;
 import org.eclipse.californium.core.coap.CoAP.ResponseCode;
 import org.eclipse.californium.core.server.resources.CoapExchange;
 
+
+// this class handle all request to client, the generic is ResourceTemp form
 public class ResourceTemp extends CoapResource {
 	private static final Logger _Logger = Logger.getLogger(ResourceTemp.class.getName());
 	// static

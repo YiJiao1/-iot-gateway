@@ -9,6 +9,7 @@ public class TempActuatorSubscriberApp {
 				path);
 
 		test.connect();
+// 		add topic is tempactuator (lv) return String 
 		String topicname = "/v1.6/devices/iot-device/tempactuator/lv";
 		test.subscribeTopic(topicname, 0);
 

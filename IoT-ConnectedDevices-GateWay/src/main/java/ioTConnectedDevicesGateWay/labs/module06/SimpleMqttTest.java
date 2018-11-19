@@ -6,6 +6,8 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
+// all part is a main test, ignore it. This class could not using in Mqtt conncetion
+
 public class SimpleMqttTest {
 
 	private String topic = "MqttTest";
